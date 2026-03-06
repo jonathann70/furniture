@@ -1,0 +1,158 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+.container{
+width:90%;
+margin:auto;
+}
+
+/* HEADER */
+
+header{
+background:#333;
+color:white;
+padding:15px 0;
+}
+
+.header-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+display:flex;
+align-items:center;
+}
+
+.logo img{
+width:50px;
+margin-right:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#efd542;
+}
+
+/* HERO */
+
+.hero{
+height:400px;
+background:url('images/Living.png') center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero-text{
+background:rgba(0,0,0,0.5);
+padding:30px;
+border-radius:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#fdfec2;
+color:black;
+text-decoration:none;
+border-radius:5px;
+}
+
+/* TENTANG */
+
+.about{
+padding:60px 0;
+text-align:center;
+}
+
+.about h2{
+margin-bottom:20px;
+}
+
+/* PRODUK */
+
+.produk{
+padding:60px 0;
+text-align:center;
+background:rgb(250, 224, 120);
+}
+
+.produk-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.card{
+background:#f9f9f9;
+width:250px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+/* KONTAK */
+
+.kontak{
+padding:60px 0;
+text-align:center;
+}
+
+form{
+margin-top:20px;
+}
+
+input, textarea{
+width:100%;
+max-width:400px;
+padding:10px;
+margin:10px auto;
+display:block;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+padding:10px 20px;
+background:#333;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
