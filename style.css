@@ -53,21 +53,28 @@ color:#efd542;
 
 .hero{
 height:400px;
+position:relative;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
 color:white;
-position:relative;
-overflow:hidden;
 }
 
 .hero-img{
 position:absolute;
+top:0;
+left:0;
 width:100%;
 height:100%;
 object-fit:cover;
-z-index:-1;
+}
+
+.hero-text{
+position:relative;
+background:rgba(0,0,0,0.5);
+padding:25px;
+border-radius:10px;
 }
 
 
